@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		03A1DDD118CFA2520088CBE8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03A1DDD018CFA2520088CBE8 /* main.cpp */; };
 		03A1DDD318CFA2520088CBE8 /* SpotifyPuzzle_zipfsong.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03A1DDD218CFA2520088CBE8 /* SpotifyPuzzle_zipfsong.1 */; };
+		03A1DDDD18CFA33B0088CBE8 /* Album.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03A1DDD918CFA33B0088CBE8 /* Album.cpp */; };
+		03A1DDDE18CFA33B0088CBE8 /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 03A1DDDC18CFA33B0088CBE8 /* String.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,12 @@
 		03A1DDCD18CFA2520088CBE8 /* SpotifyPuzzle_zipfsong */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SpotifyPuzzle_zipfsong; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A1DDD018CFA2520088CBE8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		03A1DDD218CFA2520088CBE8 /* SpotifyPuzzle_zipfsong.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SpotifyPuzzle_zipfsong.1; sourceTree = "<group>"; };
+		03A1DDD918CFA33B0088CBE8 /* Album.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Album.cpp; sourceTree = "<group>"; };
+		03A1DDDA18CFA33B0088CBE8 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		03A1DDDB18CFA33B0088CBE8 /* String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String.h; sourceTree = "<group>"; };
+		03A1DDDC18CFA33B0088CBE8 /* String.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = String.cpp; sourceTree = "<group>"; };
+		03A1DDDF18CFA64B0088CBE8 /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		03A1DDF518CFA92D0088CBE8 /* input2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = input2.txt; path = ../input2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,14 @@
 		03A1DDCF18CFA2520088CBE8 /* SpotifyPuzzle_zipfsong */ = {
 			isa = PBXGroup;
 			children = (
+				03A1DDD918CFA33B0088CBE8 /* Album.cpp */,
+				03A1DDDA18CFA33B0088CBE8 /* Album.h */,
+				03A1DDDB18CFA33B0088CBE8 /* String.h */,
+				03A1DDDC18CFA33B0088CBE8 /* String.cpp */,
 				03A1DDD018CFA2520088CBE8 /* main.cpp */,
 				03A1DDD218CFA2520088CBE8 /* SpotifyPuzzle_zipfsong.1 */,
+				03A1DDF518CFA92D0088CBE8 /* input2.txt */,
+				03A1DDDF18CFA64B0088CBE8 /* input.txt */,
 			);
 			path = SpotifyPuzzle_zipfsong;
 			sourceTree = "<group>";
@@ -118,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				03A1DDD118CFA2520088CBE8 /* main.cpp in Sources */,
+				03A1DDDE18CFA33B0088CBE8 /* String.cpp in Sources */,
+				03A1DDDD18CFA33B0088CBE8 /* Album.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
